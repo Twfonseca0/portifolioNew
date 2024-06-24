@@ -2,3 +2,8 @@
     --bkgColor: #000000;
     --textColor:#02dd00;
 }
+
+body{
+    background-color: var(--bkgColor);
+    color: var(--textColor);
+}

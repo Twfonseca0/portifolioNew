@@ -96,13 +96,21 @@ body{
 }
 
 .aboutSectionStyle{
-    height: 40vh;
+    height: 45vh;
 }
 
 .aboutTextStyle{
     text-align: left;
     margin: -25px 0px 0px 20px;
     font-size:27px ;
+}
+
+.aboutMeParagraphStyle{
+    position: relative;
+    top: -235px;
+    left: 65px;
+    width: 307px;
+    text-align: center;
 }
 
 .svgContainer{

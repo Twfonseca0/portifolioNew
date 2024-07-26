@@ -73,23 +73,24 @@ body{
                          "a2 "
                          "a3 "
                          "a4 ";
+    align-items: center;
+    justify-content: center;
 
 }
 
 .nameFrame{
     grid-area: a1;
-    width:270px;
-    height:180px;
 }
 
 .roleFrame{
     grid-area: a2;
-    width:270px;
-    height:180px;
 }
 
 .stackFrame{
     grid-area: a3;
+}
+
+.nameFrame, .roleFrame, .stackFrame{
     width:270px;
     height:180px;
 }
@@ -103,280 +104,137 @@ body{
     height:auto;
 }
 
+.splitLineContainer,.revSplitContainer{
+    width: 100%;
+}
+
 .lineSVG{
     width:100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-.headerStyle{
-    width: 100%;
-    height: 60px;
-    background-color: var(--headerBkgColor);
-    color: var(--headerTextColor);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 18px;
-}
-
-
-.firstSectionStyle{
-    display: grid;
-    grid-template-areas: "a1 a4"
-                     "a2 a4"
-                     "a3 a4";
-    height: 45vh;
-    width: 100vw;
-    margin-top: 160px;
-}
-
-.titleTextContainer{
+.skillsGrid{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
 }
 
-.roleSVG{
+.skillsTextSection{
     position: relative;
-    left: -10px;
-    width:300px;
-    height:180px;
+    margin-top: -34%;
+    margin-left: 75%;
+    font-size: 24px;
 }
 
-.svgContainer1{
-    height: 190px;
-    width: 100vw;
-    grid-area: a1;
-}
-
-.svgContainer2{
-    height: 190px;
-    width: 100vw;
-    grid-area: a2;
-    
-}
-
-.svgContainer3{
-    height: 190px;
-    width: 100vw;
-    grid-area: a3;
-}
-
-.nameStyle{
-    position: relative;
-    top: 133px;
-    left: 50px;
-    font-size: 36px;
-
-}
-
-.roleStyle{
-    position: relative;
-    top: 130px;
-    left: 50px;
-    font-size: 36px;
-
-}
-
-.role2Style{
-    position: relative;
-    top: 120px;
-    left: 60px;
-    font-size: 36px;
-
-}
-
-.radarContainer{
-    display: none;
-    grid-area: a4;
-}
-
-.radarSVG{
-    width:80vw;
-    height:180px;
-}
-
-.splitLineContainer1{
-    position: relative;
-    top: 120px;
-}
-
-.svgAboutTextContainer{
-    width: 90%;
-    margin:20px 5% 10px 5%;
-}
-
-.skillsContainer{
-    display: grid;
-    grid-template:auto auto auto auto auto auto auto auto/100%;
-}
-
-.skillStackSVG{
+.htmlBox, .cssBox, .jsBox, .vueBox, .reactBox, .tpScriptBox,.nodeBox,.rubyBox{
     width:270px;
     height:180px;
 }
 
-.skilssText{
-    text-align: right;
-    margin: 93px 30px 0px 0px;
-    font-size:27px ;
-}
-.skillReverseContainer{
+.cssBox, .vueBox, .tpScriptBox, .rubyBox{
     margin-left: auto;
 }
 
-.aboutSectionStyle{
-    height: 45vh;
+.aboutSection{
+    height: 50%;
+
 }
 
 .aboutTextStyle{
-    text-align: left;
-    margin: -25px 0px 0px 20px;
-    font-size:27px ;
+    margin: -105px 0px 55px 25px;
+    font-size: 24px;
 }
 
-.aboutTextContainerSVG{
-    width:100%;
-    height:100%;
-    margin-top: 35px;
-}
-
-.svgContainer{
-    position: relative;
-    top: -150px;
-    left: -7px;
-}
-
-.projectsTextStyle{
-    text-align: right;
-    margin: -24px 20px 0px 0px;
-    font-size:27px ;
+.aboutSVG{
+    width: 95%;
+    margin: 0px 2.5% 45px 2.5%;
 }
 
 .projectsContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
     width: 100%;
 }
 
-.projectsScreenStyle{
-    width:100%;
-    height: 80vh;
-}
-
-.arrowsContainerStyle{
+.projectsTextStyle{
     width: 100%;
-    height: 20%;
+    text-align: end;
+    margin: -34% 0px 50px -22px;
+    font-size: 24px;
+}
+
+.projectScreenContainer{
+    text-align: center;
+    width: 100%;
+    height: 80%;
+}
+
+.projectScreenSVG{
+    width: 100%;
+}
+
+.buttonsContainer{
+    width: 80%;
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    margin-left: 8%;
 
 }
 
-.linkTextStyle{
-    font-size:27px ;
-    position: relative;
-    top: -55px;
-    left: 15px;
+.btnLinkContainer{
+    width: 40%;
+}
+
+.arrowLeftSVG, .arrowRightSVG{
+    width: 40px;
+    height: 40px;
 }
 
 .contactsTextStyle{
-    text-align: left;
-    margin: -27px 0px 0px 20px;
-    font-size:27px ;
+    margin: -100px 0px 10px 15px;
+    font-size: 24px;
 }
 
-.contactOptionsContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.contactsContainer{
+    height: 200px;
+}
+
+.contactsLinks{
+    margin:40px 0px 25px 15px;
+}
+
+.linkedinContainer, .githubContainer{
+    margin-bottom: 20px;
+}
+
+.linkedinIcon, .githubIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.linkStyle{
+    color: #02dd00;
     
 }
 
-.gitHubContainer{
-    margin: 50px;
-    height: 50px;
+
+
+@media screen and (min-width:375px){
+    .skillsTextSection{
+        position: relative;
+        margin-top: -34%;
+        margin-left: 75%;
+        font-size: 24px;
+    }
+
+    .aboutTextStyle{
+        margin: -34% 0px 55px 25px;
+        font-size: 24px;
+    }
+
+
+    .contactsTextStyle{
+        margin: -34% 0px 10px 15px;
+        font-size: 24px;
+    }
 }
 
-.iconGitContainer{
-    width: 100px;
-}
-
-.linkedinContainer{
-    margin: 50px;
-    height: 50px;
-}
-
-
-*/
